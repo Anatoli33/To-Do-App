@@ -1,3 +1,4 @@
+import "./hero.css";
 
 const Todo = () => {
   return (
