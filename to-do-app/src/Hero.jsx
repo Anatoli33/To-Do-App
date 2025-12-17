@@ -36,7 +36,7 @@ const Todo = () => {
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && add()}
         />
-        <button type="button" onClick={add}>
+        <button type="button" onClick={add} style={{ margin: "10px" }}>
           Add task
         </button>
       </section>
