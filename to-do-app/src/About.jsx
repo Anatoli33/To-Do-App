@@ -1,17 +1,27 @@
+import "./about.css";
 
 const About = () => {
   return (
-    <section className="about">
-      <h2>About This Website</h2>
-      <p>
-        This website is a simple productivity app created to help users organize
-        their daily tasks and stay focused.
-      </p>
-      <p>
-        It is built with <strong>React</strong> and focuses on clean design,
-        simplicity, and fast interaction.
-      </p>
-    </section>
+    <div className="about">
+      <h1>About us</h1>
+
+      <section>
+        <h2>What is this website?</h2>
+        <p>
+          This website is a simple task management app designed to help users
+          organize their daily activities.
+        </p>
+      </section>
+
+      <section>
+        <h2>Technologies</h2>
+        <p>Built with React and modern CSS.</p>
+
+        <div className="highlight">
+          Simple, fast and focused on productivity.
+        </div>
+      </section>
+    </div>
   );
 };
 
