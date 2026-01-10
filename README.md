@@ -48,8 +48,3 @@ The project demonstrates core React concepts such as state management, component
   - Press **Enter** or click **Add task** to add it
   - Click on a task to remove it
 - The task list updates instantly without page reload
-
----
-
-## 📁 Project Structure
-
