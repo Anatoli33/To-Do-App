@@ -1,0 +1,10 @@
+{
+  "name": "to-do-parent",
+  "private": true,
+  "scripts": {
+    "dev": "cd ./to-do-app && npm run dev",
+    "build": "cd ./to-do-app && npm run build",
+    "preview": "cd ./to-do-app && npm run preview",
+    "lint": "cd ./to-do-app && npm run lint"
+  }
+}
