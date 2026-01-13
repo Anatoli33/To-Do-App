@@ -35,26 +35,24 @@ form {
   margin: 0 auto;
 }
 
-/* Label + input row */
+/* Label + input row (GRID FIX) */
 form div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 30% 50%;
   gap: 15px;
   margin-bottom: 15px;
+  align-items: center;
 }
 
 /* Labels */
 form label {
-  min-width: 100px;
   font-weight: 500;
 }
 
 /* Inputs */
 form input,
 form textarea {
-  width: 100%;
-  max-width: 300px;
+  min-width: 300px;
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -70,8 +68,8 @@ form textarea:focus {
 
 /* Button */
 form button {
-  margin-top: 10px;
-  width: 90%;
+  margin-top: 20px;
+  width: 80%;
   padding: 10px;
   font-size: 1rem;
   border: none;
@@ -84,4 +82,11 @@ form button {
 /* Button hover */
 form button:hover {
   background-color: #43a047;
+}
+
+/* 📱 Mobile fix */
+@media (max-width: 600px) {
+  form div {
+    grid-template-columns: 1fr;
+  }
 }
